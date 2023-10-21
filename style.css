@@ -1,10 +1,12 @@
 .tit{
   text-align: center;
   color: red;
+  font-family: 'Arial', sans-serif;
   
 }
 body{
   background-color: yellow ;
+  font-family: 'Arial' sans-serif;
 }
 
 .input{
@@ -15,15 +17,18 @@ body{
   font-size: 16px;
   margin-bottom: 20px;
   text-align: center;
+  font-family: 'Arial', sans-serif;
 }
 .input1{
   text-align: center;
+  font-family: 'Arial', sans-serif;
 }
 .input2{
   width: 80%;
   box-sizing: border-box;
   border-radius: 10px;
   margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
 }
 .input2::placeholder{
   font-family: 'Arial', sans-serif;
