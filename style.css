@@ -1,0 +1,38 @@
+.tit{
+  text-align: center;
+  color: red;
+  
+}
+body{
+  background-color: yellow ;
+}
+
+.input{
+  background-color: white;
+  border-radius: 50px;
+  height: 1cm;
+  width:10cm;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.input1{
+  text-align: center;
+}
+.input2{
+  width: 80%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.input2::placeholder{
+  font-family: 'Arial', sans-serif;
+}
+.input3{
+  width: 100px;
+  height: 30px;
+  background-color:#fcba03;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+}
