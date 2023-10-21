@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .tit {
+      text-align: center;
+    }
+
+    .input1 {
+      text-align: center;
+    }
+
+    .input2 {
+      width: 80%;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+      font-size: 16px; /* Aumenta la dimensione del testo per una migliore leggibilità */
+    }
+
+    .input::placeholder {
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+  <title>giorno esplosivo</title>
+</head>
+<body>
+  <h1 class="tit">NUOVO TRAGUARDO,<br>11 ANNI</h1>
+  <h2 class="tit">... quest' anno compierò 11 anni &#128513;<br>questo è il sito-invito </h2>
+  <h1 class="tit">INFORMAZIONI</h1>
+  <h2 class="tit">ci saranno informazioni a breve</h2>
+  <h1 class="tit">INVITO</h1>
+  <form action="https://formsubmit.co/costanzaronzoni@gmail.com" method="POST">
+    <div class="input1">
+      <input class="input" type="text" name="nome" required placeholder="nome e cognome (obbligatorio)">
+      <input class="input" type="text" name="intolleranze" placeholder="se hai qualche intolleranza o allergia scrivila">
+      <textarea class="input2" name="msg" placeholder="Inserisci qui un messaggio che mi vuoi inviare"></textarea>
+      <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+        <br><button type="sumbit" class="input3">Invia</button>
+    </div>
+  </form>
+</body>
+        </html>
+              
