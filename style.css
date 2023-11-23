@@ -15,7 +15,6 @@ body{
   height: 1cm;
   width:10cm;
   font-size: 16px;
-  margin-bottom: 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
 }
@@ -41,3 +40,25 @@ body{
   color: white;
   font-size: 20px;
 }
+.input4{
+  background-color: white;
+  border-radius: 50px;
+  height: 1cm;
+  width:10cm;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+.radio1{
+  margin-bottom: 20px;
+}
+.p1{
+  position:relative; bottom:2.5px;
+}
+.p{
+  position:relative; top:0px;
+}
+.radio2{
+  position:relative; top:3px
+  }
